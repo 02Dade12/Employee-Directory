@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 function SearchForm(props) {
   return (
     <form>
@@ -10,11 +12,11 @@ function SearchForm(props) {
           value={props.search}
           name="search"
           type="text"
-          className="form-control"
-          placeholder="Search for a Gif"
+          className="form-control float-end"
+          placeholder="Search for an Employee"
           id="search"
         />
-        <button onClick={props.handleFormSubmit} className="btn btn-primary mt-3">
+        <button onClick={props.handleFormSubmit} className="btn btn-primary mt-3 float-end">
           Search
         </button>
       </div>
